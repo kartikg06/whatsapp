@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #00fff3;
+    height: 8rem;
+}
+
+#navbar img {
+    padding: 0.9rem;
+    height: 5rem;
+}
+
+#navbar p {
+    display: inline-block;
+    /* margin: auto; */
+    position: absolute;
+    top: 5vh;
+    font-size: 30px;
+    color: #3d6563;
+    font-weight: bold;
+}
+
+#message {
+    height: 83.8vh;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    padding: 10px;
+    border: 2px solid white;
+    width: 70%;
+    margin: auto;
+    border-radius: 13px;
+    height: 30rem;
+    background-color: #4f9f55;
+    overflow-y: auto;
+}
+
+.message {
+    font-family: 'Roboto Slab', serif;
+    width: fit-content;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: black;
+    font-size: 22px;
+}
+
+.right {
+    clear: both;
+    float: right;
+}
+
+.left {
+    clear: both;
+    float: left;
+}
+
+.middle {
+    margin: auto;
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    clear: both;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 63%;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 12px;
+    background-color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
